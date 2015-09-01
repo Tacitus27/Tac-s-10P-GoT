@@ -28,8 +28,8 @@ q:before, q:after { content: ""; content: none; }
 
 .board {
     position: relative;
-    height: 2585px;
-    width: 2264px;
+    height: 3311px;
+    width: 2900px;
     background: url(images/Map2.jpg);
 	background-size: cover;
 }
@@ -60,6 +60,7 @@ q:before, q:after { content: ""; content: none; }
 .token-arryn,
 .token-tully,
 .token-targaryen,
+.token-yunkai,
 
 .powertoken-lannister,
 .powertoken-stark,
@@ -70,6 +71,7 @@ q:before, q:after { content: ""; content: none; }
 .powertoken-arryn,
 .powertoken-tully,
 .powertoken-targaryen,
+.powertoken-yunkai,
 
 .supply-lannister,
 .supply-stark,
@@ -80,6 +82,7 @@ q:before, q:after { content: ""; content: none; }
 .supply-arryn,
 .supply-tully,
 .supply-targaryen,
+.supply-yunkai,
 
 .victory-lannister,
 .victory-stark,
@@ -90,6 +93,7 @@ q:before, q:after { content: ""; content: none; }
 .victory-arryn,
 .victory-tully,
 .victory-targaryen,
+.victory-yunkai,
 
 .routed-footman-lannister,
 .routed-footman-stark,
@@ -100,6 +104,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-footman-arryn,
 .routed-footman-tully,
 .routed-footman-targaryen,
+.routed-footman-yunkai,
 .footman-lannister,
 .footman-stark,
 .footman-baratheon,
@@ -109,6 +114,7 @@ q:before, q:after { content: ""; content: none; }
 .footman-arryn,
 .footman-tully,
 .footman-targaryen,
+.footman-yunkai,
 
 .routed-knight-lannister,
 .routed-knight-stark,
@@ -119,6 +125,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-arryn,
 .routed-knight-tully,
 .routed-knight-targaryen,
+.routed-knight-yunkai,
 .knight-lannister,
 .knight-stark,
 .knight-baratheon,
@@ -128,6 +135,7 @@ q:before, q:after { content: ""; content: none; }
 .knight-arryn,
 .knight-tully,
 .knight-targaryen,
+.knight-yunkai,
 
 .routed-ship-lannister,
 .routed-ship-stark,
@@ -138,6 +146,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-ship-arryn,
 .routed-ship-tully,
 .routed-ship-targaryen,
+.routed-ship-yunkai,
 .ship-lannister,
 .ship-stark,
 .ship-baratheon,
@@ -147,6 +156,7 @@ q:before, q:after { content: ""; content: none; }
 .ship-arryn,
 .ship-tully,
 .ship-targaryen,
+.ship-yunkai,
 
 .routed-siege-lannister,
 .routed-siege-stark,
@@ -157,6 +167,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-siege-arryn,
 .routed-siege-tully,
 .routed-siege-targaryen,
+.routed-siege-yunkai,
 .siege-lannister,
 .siege-stark,
 .siege-baratheon,
@@ -165,7 +176,8 @@ q:before, q:after { content: ""; content: none; }
 .siege-martell,
 .siege-arryn,
 .siege-tully,
-.siege-targaryen {
+.siege-targaryen,
+.siege-yunkai {
     background: url(images/tokens.png) no-repeat;
     width: 62px;
     height: 62px;
@@ -184,6 +196,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-footman-arryn,
 .routed-footman-tully,
 .routed-footman-targaryen,
+.routed-footman-yunkai,
 
 .routed-knight-lannister,
 .routed-knight-stark,
@@ -194,6 +207,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-arryn,
 .routed-knight-tully,
 .routed-knight-targaryen,
+.routed-kinght-yunkai,
 
 .routed-ship-lannister,
 .routed-ship-stark,
@@ -204,6 +218,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-ship-arryn,
 .routed-ship-tully,
 .routed-ship-targaryen,
+.routed-ship-yunkai,
 
 .routed-siege-lannister,
 .routed-siege-stark,
@@ -213,7 +228,8 @@ q:before, q:after { content: ""; content: none; }
 .routed-siege-martell,
 .routed-siege-arryn,
 .routed-siege-tully,
-.routed-siege-targaryen {
+.routed-siege-targaryen,
+.routed-sege-yunkai {
     background-color: rgba(0, 0, 0, .7);
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
     border-radius: 50%;
@@ -311,6 +327,9 @@ q:before, q:after { content: ""; content: none; }
 .token-targaryen {
     background-position: -436px -62px;
 }
+.token-yunkai {
+	background-position: -562px -62px;
+}
 
 .powertoken-lannister {
     background-position: 0 -125px;
@@ -338,6 +357,9 @@ q:before, q:after { content: ""; content: none; }
 }
 .powertoken-tully {
     background-position: -364px -125px;
+}
+.powertoken-yunkai {
+	background-position: -537px -125px;
 }
 
 .supply-lannister {
@@ -367,6 +389,9 @@ q:before, q:after { content: ""; content: none; }
 .supply-tully {
     background-position: -372px -186px;
 }
+.supply-yunkai {
+    background-position: -554px -186px;
+}
 
 .victory-lannister {
     background-position: 0 -248px;
@@ -395,144 +420,162 @@ q:before, q:after { content: ""; content: none; }
 .victory-tully {
     background-position: -492px -248px;
 }
+.victory-yunkai {
+    background-position: -554px -248px;
+}
 
 .routed-footman-lannister,
 .footman-lannister {
-    background-position: -564px -62px;
+    background-position: -630px -62px;
 }
 .routed-footman-stark,
 .footman-stark {
-    background-position: -564px -124px;
+    background-position: -630px -124px;
 }
 .routed-footman-baratheon,
 .footman-baratheon {
-    background-position: -564px -186px;
+    background-position: -630px -186px;
 }
 .routed-footman-greyjoy,
 .footman-greyjoy {
-    background-position: -564px -248px;
+    background-position: -630px -248px;
 }
 .routed-footman-tyrell,
 .footman-tyrell {
-    background-position: -810px -62px;
+    background-position: -876px -62px;
 }
 .routed-footman-martell,
 .footman-martell {
-    background-position: -874px -62px;
+    background-position: -930px -62px;
 }
 .routed-footman-arryn,
 .footman-arryn {
-    background-position: -1056px -62px;
+    background-position: -1122px -62px;
 }
 .routed-footman-targaryen,
 .footman-targaryen {
-    background-position: -994px -62px;
+    background-position: -1060px -62px;
 }
 .routed-footman-tully,
 .footman-tully {
-    background-position: -936px -62px;
+    background-position: -1002px -62px;
+}
+.routed-footman-yunkai,
+.footman-yunkai {
+    background-position: -1186px -62px;
 }
 
 .routed-knight-lannister,
 .knight-lannister {
-    background-position: -623px -62px;
+    background-position: -689px -62px;
 }
 .routed-knight-stark,
 .knight-stark {
-    background-position: -623px -122px;
+    background-position: -689px -122px;
 }
 .routed-knight-baratheon,
 .knight-baratheon {
-    background-position: -623px -186px;
+    background-position: -689px -186px;
 }
 .routed-knight-greyjoy,
 .knight-greyjoy {
-    background-position: -623px -248px;
+    background-position: -689px -248px;
 }
 .routed-knight-tyrell,
 .knight-tyrell {
-    background-position: -810px -124px;
+    background-position: -876px -124px;
 }
 .routed-knight-martell,
 .knight-martell {
-    background-position: -874px -124px;
+    background-position: -940px -124px;
 }
 .routed-knight-arryn,
 .knight-arryn {
-    background-position: -1056px -124px;
+    background-position: -1122px -124px;
 }
 .routed-knight-targaryen,
 .knight-targaryen {
-    background-position: -994px -124px;
+    background-position: -1060px -124px;
 }
 .routed-knight-tully,
 .knight-tully {
-    background-position: -936px -124px;
+    background-position: -1002px -124px;
+}
+.routed-knight-yunkai,
+.knight-yunkai {
+    background-position: -1188px -124px;
 }
 
 .routed-ship-lannister,
 .ship-lannister {
-    background-position: -686px -62px;
+    background-position: -752px -62px;
 }
 .routed-ship-stark,
 .ship-stark {
-    background-position: -686px -124px;
+    background-position: -752px -124px;
 }
 .routed-ship-baratheon,
 .ship-baratheon {
-    background-position: -686px -186px;
+    background-position: -752px -186px;
 }
 .routed-ship-greyjoy,
 .ship-greyjoy {
-    background-position: -686px -248px;
+    background-position: -752px -248px;
 }
 .routed-ship-tyrell,
 .ship-tyrell {
-    background-position: -810px -186px;
+    background-position: -876px -186px;
 }
 .routed-ship-martell,
 .ship-martell {
-    background-position: -874px -186px;
+    background-position: -940px -186px;
 }
 .routed-ship-arryn,
 .ship-arryn {
-    background-position: -1056px -186px;
+    background-position: -1122px -186px;
 }
 .routed-ship-targaryen,
 .ship-targaryen {
-    background-position: -994px -186px;
+    background-position: -1060px -186px;
 }
 .routed-ship-tully,
 .ship-tully {
-    background-position: -936px -186px;
+    background-position: -1002px -186px;
+}
+.routed-ship-yunkai,
+.ship-yunkai {
+    background-position: -1188px -186px;
 }
 
 .siege-lannister {
-    background-position: -748px -62px;
+    background-position: -814px -62px;
 }
 .siege-stark {
-    background-position: -748px -124px;
+    background-position: -814px -124px;
 }
 .siege-baratheon {
-    background-position: -748px -186px;
+    background-position: -814px -186px;
 }
 .siege-greyjoy {
-    background-position: -748px -248px;
+    background-position: -814px -248px;
 }
 .siege-tyrell {
-    background-position: -810px -248px;
+    background-position: -876px -248px;
 }
 .siege-martell {
-    background-position: -874px -248px;
+    background-position: -940px -248px;
 }
 .siege-arryn {
-    background-position: -1056px -248px;
+    background-position: -1122px -248px;
 }
 .siege-targaryen {
-    background-position: -994px -248px;
+    background-position: -1060px -248px;
 }
 .siege-tully {
-    background-position: -936px -248px;
+    background-position: -1002px -248px;
+}
+.siege-yunkai {
+    background-position: -1188px -248px;
 }
 
 .pos-throne-1 {
@@ -571,6 +614,10 @@ q:before, q:after { content: ""; content: none; }
     left: 85.65%;
     top: 15.85%;
 }
+.pos-throne-10 {
+    left: 85.65%;
+    top: 10.85%;
+}
 .pos-fiefdom-1 {
     left: 91.3%;
     top: 56.4%;
@@ -607,6 +654,10 @@ q:before, q:after { content: ""; content: none; }
     left: 91.3%;
     top: 15.8%;
 }
+.pos-fiefdom-10 {
+    left: 91.3%;
+    top: 10.8%;
+}
 .pos-court-1 {
     left: 96.8%;
     top: 56.4%;
@@ -642,6 +693,10 @@ q:before, q:after { content: ""; content: none; }
 .pos-court-9 {
     left: 96.8%;
     top: 15.8%;
+}
+.pos-court-10 {
+    left: 96.8%;
+    top: 10.8%;
 }
 .pos-supply-0 {
     left: 71.4%;
