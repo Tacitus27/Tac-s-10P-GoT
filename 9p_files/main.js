@@ -152,6 +152,7 @@ var $board = $('.board'),
 				"targaryen": $('[name="units-targaryen"]').val(),
 				"tully": $('[name="units-tully"]').val(),
 				"tyrell": $('[name="units-tyrell"]').val()
+				"yunkai": $('[name="units-yunkai"]').val()
             },
             
             "orders": {
@@ -164,6 +165,7 @@ var $board = $('.board'),
                 "targaryen": $('[name="orders-targaryen"]').val(),
 				"tully": $('[name="orders-tully"]').val(),
 				"tyrell": $('[name="orders-tyrell"]').val()
+				"yunkai": $('[name="orders-yunkai"]').val()
             },
             
             "powertokens": {
@@ -176,6 +178,7 @@ var $board = $('.board'),
                 "targaryen": $('[name="powertokens-targaryen"]').val(),
 				"tully": $('[name="powertokens-tully"]').val(),
 				"tyrell": $('[name="powertokens-tyrell"]').val()
+				"yunkai": $('[name="powertokens-yunkai"]').val()
             },
             
             "housecards": {
@@ -188,6 +191,7 @@ var $board = $('.board'),
                 "targaryen": $('[name="housecards-targaryen"]').val(),
 				"tully": $('[name="housecards-tully"]').val(),
 				"tyrell": $('[name="housecards-tyrell"]').val()
+				"yunkai": $('[name="housecards-yunkai"]').val()
             },
 			
 			"housecardTracking": {
@@ -272,6 +276,15 @@ var $board = $('.board'),
 					$('[name="housecard-5-tyrell"]').is(':checked'),
 					$('[name="housecard-6-tyrell"]').is(':checked')
 				]
+				"yunkai": [
+					$('[name="housecard-0-yunkai"]').is(':checked'),
+					$('[name="housecard-1-yunkai"]').is(':checked'),
+					$('[name="housecard-2-yunkai"]').is(':checked'),
+					$('[name="housecard-3-yunkai"]').is(':checked'),
+					$('[name="housecard-4-yunkai"]').is(':checked'),
+					$('[name="housecard-5-yunkai"]').is(':checked'),
+					$('[name="housecard-6-yunkai"]').is(':checked')
+				]
 			},
             
             "availablePowertokens": {
@@ -283,7 +296,8 @@ var $board = $('.board'),
                 "stark": $('[name="availablePowertokens-stark"]').val(),
                 "targaryen": $('[name="availablePowertokens-targaryen"]').val(),
                 "tully": $('[name="availablePowertokens-tully"]').val(),
-                "tyrell": $('[name="availablePowertokens-tyrell"]').val()
+                "tyrell": $('[name="availablePowertokens-tyrell"]').val(),
+                "yunkai": $('[name="availablePowertokens-yunkai"]').val()
             },
             
             "maxPowertokens": $('[name="maxPowertokens"]').val()
@@ -311,6 +325,7 @@ var $board = $('.board'),
         $('[name="units-targaryen"]').val(conf.units.targaryen);
         $('[name="units-tully"]').val(conf.units.tully);
         $('[name="units-tyrell"]').val(conf.units.tyrell);
+        $('[name="units-yunkai"]').val(conf.units.yunkai);
 
         $('[name="orders-arryn"]').val(conf.orders.arryn);
         $('[name="orders-baratheon"]').val(conf.orders.baratheon);
@@ -321,6 +336,7 @@ var $board = $('.board'),
         $('[name="orders-targaryen"]').val(conf.orders.targaryen);
         $('[name="orders-tully"]').val(conf.orders.tully);
         $('[name="orders-tyrell"]').val(conf.orders.tyrell);
+        $('[name="orders-yunkai"]').val(conf.orders.yunkai);
 
         $('[name="powertokens-arryn"]').val(conf.powertokens.arryn);
         $('[name="powertokens-baratheon"]').val(conf.powertokens.baratheon);
@@ -331,6 +347,7 @@ var $board = $('.board'),
         $('[name="powertokens-targaryen"]').val(conf.powertokens.targaryen);
         $('[name="powertokens-tully"]').val(conf.powertokens.tully);
         $('[name="powertokens-tyrell"]').val(conf.powertokens.tyrell);
+        $('[name="powertokens-yunkai"]').val(conf.powertokens.yunkai);
 
         $('[name="housecards-arryn"]').val(conf.housecards.arryn);
         $('[name="housecards-baratheon"]').val(conf.housecards.baratheon);
@@ -341,6 +358,7 @@ var $board = $('.board'),
         $('[name="housecards-targaryen"]').val(conf.housecards.targaryen);
         $('[name="housecards-tully"]').val(conf.housecards.tully);
         $('[name="housecards-tyrell"]').val(conf.housecards.tyrell);
+        $('[name="housecards-yunkai"]').val(conf.housecards.yunkai);
 		
 		if (conf.housecardTracking) {
 			$('[name="housecard-0-arryn"]').attr('checked', conf.housecardTracking.arryn[0]);
@@ -414,6 +432,14 @@ var $board = $('.board'),
 			$('[name="housecard-4-tyrell"]').attr('checked', conf.housecardTracking.tyrell[4]);
 			$('[name="housecard-5-tyrell"]').attr('checked', conf.housecardTracking.tyrell[5]);
 			$('[name="housecard-6-tyrell"]').attr('checked', conf.housecardTracking.tyrell[6]);
+			
+			$('[name="housecard-0-yunkai"]').attr('checked', conf.housecardTracking.yunkai[0]);
+			$('[name="housecard-1-yunkai"]').attr('checked', conf.housecardTracking.yunkai[1]);
+			$('[name="housecard-2-yunkai"]').attr('checked', conf.housecardTracking.yunkai[2]);
+			$('[name="housecard-3-yunkai"]').attr('checked', conf.housecardTracking.yunkai[3]);
+			$('[name="housecard-4-yunkai"]').attr('checked', conf.housecardTracking.yunkai[4]);
+			$('[name="housecard-5-yunkai"]').attr('checked', conf.housecardTracking.yunkai[5]);
+			$('[name="housecard-6-yunkai"]').attr('checked', conf.housecardTracking.yunkai[6]);
 		}
 
         $('[name="availablePowertokens-arryn"]').val(conf.availablePowertokens.arryn);
@@ -425,6 +451,7 @@ var $board = $('.board'),
         $('[name="availablePowertokens-targaryen"]').val(conf.availablePowertokens.targaryen);
         $('[name="availablePowertokens-tully"]').val(conf.availablePowertokens.tully);
         $('[name="availablePowertokens-tyrell"]').val(conf.availablePowertokens.tyrell);
+        $('[name="availablePowertokens-yunkai"]').val(conf.availablePowertokens.tyrell);
 
         $('[name="maxPowertokens"]').val(conf.maxPowertokens);
     };
