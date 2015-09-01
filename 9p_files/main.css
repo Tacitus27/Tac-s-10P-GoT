@@ -1800,32 +1800,45 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
     margin: 0;
     font-size: 1.3em;
 }
+.tokenCounts-yunkai {
+    left: 568px;
+	top: 50px;
+}
 .tokenCounts-tyrell {
     left: 506px;
+	top: 50px;
 }
 .tokenCounts-tully {
 	left: 444px;
+	top: 50px;
 }
 .tokenCounts-targaryen {
 	left: 382px;
+	top: 50px;
 }
 .tokenCounts-stark {
     left: 320px;
+	top: 50px;
 }
 .tokenCounts-martell {
     left: 258px;
+	top: 50px;
 }
 .tokenCounts-lannister {
     left: 196px;
+	top: 50px;
 }
 .tokenCounts-greyjoy {
     left: 134px;
+	top: 50px;
 }
 .tokenCounts-baratheon {
     left: 72px;
+	top: 50px;
 }
 .tokenCounts-arryn {
 	left: 10px;
+	top: 50px;
 }
 .availablePowertokens {
     display: inline;
