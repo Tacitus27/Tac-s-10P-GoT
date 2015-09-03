@@ -579,208 +579,216 @@ q:before, q:after { content: ""; content: none; }
 }
 
 .pos-throne-1 {
-	left: 85.65%;
-	top: 56.45%;
+	left: 88.76%;
+	top: 66.08%;
 }
 .pos-throne-2 {
-    left: 85.65%;
-    top: 51.4%;
+    left: 88.76%;
+    top: 62.096%;
 }
 .pos-throne-3 {
-    left: 85.65%;
-    top: 46.4%;
+    left: 88.76%;
+    top: 58.109%;
 }
 .pos-throne-4 {
-    left: 85.65%;
-    top: 41.35%;
+    left: 88.76%;
+    top: 54.122%;
 }
 .pos-throne-5 {
-    left: 85.65%;
-    top: 36.3%;
+    left: 88.76%;
+    top: 50.135%;
 }
 .pos-throne-6 {
-    left: 85.65%;
-    top: 30.9%;
+    left: 88.76%;
+    top: 46.149%;
 }
 .pos-throne-7 {
-    left: 85.65%;
-    top: 25.9%;
+    left: 88.76%;
+    top: 42.16%;
 }
 .pos-throne-8 {
-    left: 85.65%;
-    top: 20.8%;
+    left: 88.76%;
+    top: 38.176%;
 }
 .pos-throne-9 {
-    left: 85.65%;
-    top: 15.85%;
+    left: 88.76%;
+    top: 34.189%;
 }
 .pos-throne-10 {
-    left: 85.65%;
-    top: 10.85%;
+    left: 88.76%;
+    top: 30.202%;
 }
 .pos-fiefdom-1 {
-    left: 91.3%;
-    top: 56.4%;
+    left: 93.24%;
+    top: 66.08%;
 }
 .pos-fiefdom-2 {
-    left: 91.3%;
-    top: 51.35%;
+    left: 93.24%;
+    top: 62.096%;
 }
 .pos-fiefdom-3 {
-    left: 91.3%;
-    top: 46.35%;
+    left: 93.24%;
+    top: 58.109%;
 }
 .pos-fiefdom-4 {
-    left: 91.3%;
-    top: 41.27%;
+    left: 93.24%;
+    top: 54.122%;
 }
 .pos-fiefdom-5 {
-    left: 91.3%;
-    top: 36.23%;
+    left: 93.24%;
+    top: 50.135%;
 }
 .pos-fiefdom-6 {
-    left: 91.3%;
-    top: 30.9%;
+    left: 93.24%;
+    top: 46.149%;
 }
 .pos-fiefdom-7 {
-    left: 91.3%;
-    top: 25.87%;
+    left: 93.24%;
+    top: 42.16%;
 }
 .pos-fiefdom-8 {
-    left: 91.3%;
-    top: 20.8%;
+    left: 93.24%;
+    top: 38.176%;
 }
 .pos-fiefdom-9 {
-    left: 91.3%;
-    top: 15.8%;
+    left: 93.24%;
+    top: 34.189%;
 }
 .pos-fiefdom-10 {
-    left: 91.3%;
-    top: 10.8%;
+    left: 93.24%;
+    top: 30.202%;
 }
 .pos-court-1 {
-    left: 96.8%;
-    top: 56.4%;
+    left: 97.55%;
+    top: 66.08%;
 }
 .pos-court-2 {
-    left: 96.8%;
-    top: 51.35%;
+    left: 97.55%;
+    top: 62.096%;
 }
 .pos-court-3 {
-    left: 96.8%;
-    top: 46.35%;
+    left: 97.55%;
+    top: 58.109%;
 }
 .pos-court-4 {
-    left: 96.8%;
-    top: 41.27%;
+    left: 97.55%;
+    top: 54.122%;
 }
 .pos-court-5 {
-    left: 96.95%;
-    top: 36.23%;
+    left: 97.55%;
+    top: 50.135%;
 }
 .pos-court-6 {
-    left: 96.8%;
-    top: 30.65%;
+    left: 97.55%;
+    top: 46.149%;
 }
 .pos-court-7 {
-    left: 96.8%;
-    top: 25.87%;
+    left: 97.55%;
+    top: 42.16%;
 }
 .pos-court-8 {
-    left: 96.8%;
-    top: 20.8%;
+    left: 97.55%;
+    top: 38.176%;
 }
 .pos-court-9 {
-    left: 96.8%;
-    top: 15.8%;
+    left: 97.55%;
+    top: 34.189%;
 }
 .pos-court-10 {
-    left: 96.8%;
-    top: 10.8%;
+    left: 97.55%;
+    top: 30.202%;
 }
 .pos-supply-0 {
-    left: 71.4%;
-    top: 23.2%;
+    left: 91.5%;
+    top: 22.8%;
 }
 .pos-supply-1 {
-    left: 71.4%;
-    top: 20%;
+    left: 91.5%;
+    top: 20.44%;
 }
 .pos-supply-2 {
-    left: 71.4%;
-    top: 16.6%;
+    left: 91.5%;
+    top: 18.08%;
 }
 .pos-supply-3 {
-    left: 71.4%;
-    top: 13.4%;
+    left: 91.5%;
+    top: 15.72%;
 }
 .pos-supply-4 {
-    left: 71.4%;
-    top: 10.3%;
+    left: 91.5%;
+    top: 13.36%;
 }
 .pos-supply-5 {
-    left: 71.4%;
-    top: 7%;
+    left: 91.5%;
+    top: 11%;
 }
 .pos-supply-6 {
-    left: 71.4%;
-    top: 3.8%;
+    left: 91.5%;
+    top: 8.64%;
+}
+.pos-supply-7 {
+    left: 91.5%;
+    top: 6.28%;
+}
+.pos-supply-8 {
+    left: 91.5%;
+    top: 3.92%;
 }
 .pos-victory-1 {
-    left: 95.6%;
-    top: 95.9%;
+    left: 96.48%;
+    top: 97.34%;
 }
 .pos-victory-2 {
-    left: 95.6%;
-    top: 92%;
+    left: 96.48%;;
+    top: 93.80%;
 }
 .pos-victory-3 {
-    left: 95.6%;
-    top: 87.5%;
+    left: 96.48%;
+    top: 90.27%;
 }
 .pos-victory-4 {
-    left: 95.8%;
-    top: 83%;
+    left: 96.48%;
+    top: 86.74%;
 }
 .pos-victory-5 {
-    left: 95.6%;
-    top: 78.5%;
+    left: 96.48%;
+    top: 83.20%;
 }
 .pos-victory-6 {
-    left: 95.6%;
-    top: 74%;
+    left: 96.48%;
+    top: 79.67%;
 }
 .pos-victory-7 {
-    left: 95.6%;
-    top: 69.5%;
+    left: 96.48%;
+    top: 76.14%;
 }
 .pos-wilding-0 {
     left: 17%;
     top: 3.95%;
 }
 .pos-wilding-3 {
-    left: 21%;
-    top: 3.95%;
+    left: 20.99%;
+    top: 2.21%;
 }
 .pos-wilding-6 {
-    left: 25%;
-    top: 3.95%;
+    left: 24.98%;
+    top: 2.21%;
 }
 .pos-wilding-9 {
-    left: 28.5%;
-    top: 3.95%;
+    left: 28.47%;
+    top: 2.21%;
 }
 .pos-wilding-12 {
-    left: 32.5%;
-    top: 3.95%;
+    left: 32.46%;
+    top: 2.21%;
 }
 .pos-wilding-15 {
-    left: 36.5%;
-    top: 3.95%;
+    left: 36.45%;
+    top: 2.21%;
 }
 .pos-wilding-18 {
-    left: 40.5%;
-    top: 3.95%;
+    left: 40.44%;
+    top: 2.21%;
 }
 .pos-round-1 {
     left: 88%;
