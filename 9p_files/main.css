@@ -1755,7 +1755,7 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 [class^="tokenCounts-"],
 [class*=" tokenCounts-"] {
     position: absolute;
-    top: 6%;
+    top: 2%;
     cursor: pointer;
     text-shadow: 1px 1px 2px #000;
     color: #fff;
