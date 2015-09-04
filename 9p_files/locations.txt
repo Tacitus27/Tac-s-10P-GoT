@@ -90,3 +90,94 @@
 .unit.pos-thedisputedlands ~ .unit.pos-thedisputedlands ~ .unit.pos-thedisputedlands ~ .unit.pos-thedisputedlands,
 .unit.pos-volantis ~ .unit.pos-volantis ~ .unit.pos-volantis ~ .unit.pos-volantis,
 .unit.pos-volantis-port ~ .unit.pos-volantis-port ~ .unit.pos-volantis-port ~ .unit.pos-volantis-port
+
+
+
+
+
+TheEyrie: FM, KN
+Gulltown: FM
+Gulltown-Port: SH
+
+KingsLanding: FM, KN
+Kingswood: FM
+BlackwaterBay: SH
+
+GreatWyk: FM, KN
+Pyke: FM
+BlazeWaterBay: SH
+
+CasterlyRock: FM, KN
+Lannisport: FM
+FairIsle: SH
+
+Sunspear: FM, KN
+Yronwood: FM
+SeaOfDorne: SH
+
+Winterfell: FM, KN
+WhiteHarbour: FM
+BayOfGreyCliffs: SH
+
+Pentos: FM, KN
+TheGoldenFields: FM
+EastNarrowSea: SH
+
+Riverrun: FM, KN
+TheCrag: FM
+IronmansBay: SH
+
+Highgarden: FM, KN
+Oldtown: FM
+RedwyneStraights: SH
+
+Volantis: FM, KN
+TheDisputedLands: FM
+TheGulfOfGrief: SH
+
+Baratheon
+Lannister
+Targaryen
+Stark
+Martell
+Greyjoy
+Tyrell
+Yunkai
+Arryn
+Tully
+
+
+Greyjoy
+Targaryen
+Tyrell
+Tully
+Martell
+Arryn
+Stark
+Yunkai
+Baratheon
+Lannister
+
+
+Arryn
+Lannister
+Stark
+Martell
+Tully
+Baratheon
+Yunkai
+Tyrell
+Greyjoy
+Targaryen
+
+
+
+
+
+
+
+
+
+
+
+
