@@ -275,15 +275,6 @@ var $board = $('.board'),
 					$('[name="housecard-4-tyrell"]').is(':checked'),
 					$('[name="housecard-5-tyrell"]').is(':checked'),
 					$('[name="housecard-6-tyrell"]').is(':checked')
-				],
-				"yunkai": [
-					$('[name="housecard-0-yunkai"]').is(':checked'),
-					$('[name="housecard-1-yunkai"]').is(':checked'),
-					$('[name="housecard-2-yunkai"]').is(':checked'),
-					$('[name="housecard-3-yunkai"]').is(':checked'),
-					$('[name="housecard-4-yunkai"]').is(':checked'),
-					$('[name="housecard-5-yunkai"]').is(':checked'),
-					$('[name="housecard-6-yunkai"]').is(':checked')
 				]
 			},
             
@@ -432,14 +423,6 @@ var $board = $('.board'),
 			$('[name="housecard-4-tyrell"]').attr('checked', conf.housecardTracking.tyrell[4]);
 			$('[name="housecard-5-tyrell"]').attr('checked', conf.housecardTracking.tyrell[5]);
 			$('[name="housecard-6-tyrell"]').attr('checked', conf.housecardTracking.tyrell[6]);
-			
-			$('[name="housecard-0-yunkai"]').attr('checked', conf.housecardTracking.yunkai[0]);
-			$('[name="housecard-1-yunkai"]').attr('checked', conf.housecardTracking.yunkai[1]);
-			$('[name="housecard-2-yunkai"]').attr('checked', conf.housecardTracking.yunkai[2]);
-			$('[name="housecard-3-yunkai"]').attr('checked', conf.housecardTracking.yunkai[3]);
-			$('[name="housecard-4-yunkai"]').attr('checked', conf.housecardTracking.yunkai[4]);
-			$('[name="housecard-5-yunkai"]').attr('checked', conf.housecardTracking.yunkai[5]);
-			$('[name="housecard-6-yunkai"]').attr('checked', conf.housecardTracking.yunkai[6]);
 		}
 
         $('[name="availablePowertokens-arryn"]').val(conf.availablePowertokens.arryn);
