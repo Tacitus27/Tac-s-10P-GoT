@@ -708,31 +708,31 @@ q:before, q:after { content: ""; content: none; }
 }
 .pos-supply-2 {
     left: 91.5%;
-    top: 18.00%;
+    top: 17.95%;
 }
 .pos-supply-3 {
     left: 91.5%;
-    top: 15.60%;
+    top: 15.50%;
 }
 .pos-supply-4 {
     left: 91.5%;
-    top: 13.20%;
+    top: 13.05%;
 }
 .pos-supply-5 {
     left: 91.5%;
-    top: 10.80%;
+    top: 10.60%;
 }
 .pos-supply-6 {
     left: 91.5%;
-    top: 8.40%;
+    top: 8.15%;
 }
 .pos-supply-7 {
     left: 91.5%;
-    top: 6.00%;
+    top: 5.70%;
 }
 .pos-supply-8 {
     left: 91.5%;
-    top: 3.60%;
+    top: 3.25%;
 }
 .pos-victory-1 {
     left: 96.48%;
@@ -1774,7 +1774,7 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
     font-size: 1.3em;
 }
 .tokenCounts-yunkai {
-    left: 570px;
+    left: 568px;
 }
 .tokenCounts-tyrell {
     left: 506px;
