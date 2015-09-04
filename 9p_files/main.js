@@ -190,7 +190,8 @@ var $board = $('.board'),
                 "stark": $('[name="housecards-stark"]').val(),
                 "targaryen": $('[name="housecards-targaryen"]').val(),
 				"tully": $('[name="housecards-tully"]').val(),
-				"tyrell": $('[name="housecards-tyrell"]').val()
+				"tyrell": $('[name="housecards-tyrell"]').val(),
+				"yunkai": $('[name="housecards-yunkai"]').val()
             },
 			
 			"housecardTracking": {
@@ -274,6 +275,15 @@ var $board = $('.board'),
 					$('[name="housecard-4-tyrell"]').is(':checked'),
 					$('[name="housecard-5-tyrell"]').is(':checked'),
 					$('[name="housecard-6-tyrell"]').is(':checked')
+				],
+				"yunkai": [
+					$('[name="housecard-0-yunkai"]').is(':checked'),
+					$('[name="housecard-1-yunkai"]').is(':checked'),
+					$('[name="housecard-2-yunkai"]').is(':checked'),
+					$('[name="housecard-3-yunkai"]').is(':checked'),
+					$('[name="housecard-4-yunkai"]').is(':checked'),
+					$('[name="housecard-5-yunkai"]').is(':checked'),
+					$('[name="housecard-6-yunkai"]').is(':checked')
 				]
 			},
             
