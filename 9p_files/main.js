@@ -349,7 +349,7 @@ var $board = $('.board'),
         $('[name="housecards-targaryen"]').val(conf.housecards.targaryen);
         $('[name="housecards-tully"]').val(conf.housecards.tully);
         $('[name="housecards-tyrell"]').val(conf.housecards.tyrell);
-        $('[name="powertokens-yunkai"]').val(conf.powertokens.yunkai);
+        $('[name="housecards-yunkai"]').val(conf.housecards.yunkai);
 		
 		if (conf.housecardTracking) {
 			$('[name="housecard-0-arryn"]').attr('checked', conf.housecardTracking.arryn[0]);
