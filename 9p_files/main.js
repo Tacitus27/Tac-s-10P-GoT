@@ -314,7 +314,7 @@ var $board = $('.board'),
         $('[name="units-targaryen"]').val(conf.units.targaryen);
         $('[name="units-tully"]').val(conf.units.tully);
         $('[name="units-tyrell"]').val(conf.units.tyrell);
-        $('[name="units-yunkai"]').val(conf.units.tyrell);
+        $('[name="units-yunkai"]').val(conf.units.yunkai);
 
         $('[name="orders-arryn"]').val(conf.orders.arryn);
         $('[name="orders-baratheon"]').val(conf.orders.baratheon);
@@ -325,7 +325,7 @@ var $board = $('.board'),
         $('[name="orders-targaryen"]').val(conf.orders.targaryen);
         $('[name="orders-tully"]').val(conf.orders.tully);
         $('[name="orders-tyrell"]').val(conf.orders.tyrell);
-        $('[name="orders-yunkai"]').val(conf.orders.tyrell);
+        $('[name="orders-yunkai"]').val(conf.orders.yunkai);
 
         $('[name="powertokens-arryn"]').val(conf.powertokens.arryn);
         $('[name="powertokens-baratheon"]').val(conf.powertokens.baratheon);
@@ -336,7 +336,7 @@ var $board = $('.board'),
         $('[name="powertokens-targaryen"]').val(conf.powertokens.targaryen);
         $('[name="powertokens-tully"]').val(conf.powertokens.tully);
         $('[name="powertokens-tyrell"]').val(conf.powertokens.tyrell);
-        $('[name="powertokens-yunkai"]').val(conf.powertokens.tyrell);
+        $('[name="powertokens-yunkai"]').val(conf.powertokens.yunkai);
 
         $('[name="housecards-arryn"]').val(conf.housecards.arryn);
         $('[name="housecards-baratheon"]').val(conf.housecards.baratheon);
