@@ -151,7 +151,8 @@ var $board = $('.board'),
                 "stark": $('[name="units-stark"]').val(),
 				"targaryen": $('[name="units-targaryen"]').val(),
 				"tully": $('[name="units-tully"]').val(),
-				"tyrell": $('[name="units-tyrell"]').val()
+				"tyrell": $('[name="units-tyrell"]').val(),
+				"yunkai": $('[name="units-yunkai"]').val()
             },
             
             "orders": {
